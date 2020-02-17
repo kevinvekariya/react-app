@@ -1,0 +1,98 @@
+
+.pagination-style {
+  justify-content: center;
+}
+
+.MuldataTableGrid .MuldataTable {
+  box-shadow: none;
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.MuldataTableGrid .MuldataTable table thead {
+  border-radius: 16px;
+}
+
+.MuldataTableGrid .MuldataTable table thead th {
+  background-color: #fafafb;
+  border-bottom: none;
+  font-size: 14px;
+  color: #696974;
+  font-family: "Poppins";
+  font-weight: 500;
+  padding: 4px 10px;
+}
+
+.MuldataTableGrid .MuldataTable table thead th:first-child {
+  border-radius: 16px 0 0 16px;
+}
+
+.MuldataTableGrid .MuldataTable table thead th:last-child {
+  border-radius: 0 16px 16px 0;
+}
+
+
+.MuldataTableGrid .MuldataTable table tr td {
+  font-size: 14px;
+  color: #171725;
+  font-family: "Poppins";
+  font-weight: 500;
+  border-bottom: none;
+  padding: 6px 10px;
+}
+
+.MuldataTableGrid .MuldataTable table tr:hover td {
+  background-color: rgba(8, 78, 138, 0.05);
+}
+
+.MuldataTableGrid .MuldataTable table tr:hover td:first-child {
+  border-radius: 16px 0 0 16px;
+}
+
+.MuldataTableGrid .MuldataTable table tr:hover td:last-child {
+  border-radius: 0 16px 16px 0;
+}
+
+.MuldataTableGrid .MuldataTable table tr td .TableDeleteIcon {
+  color: #fc5a5a;
+}
+
+.MuldataTableGrid .MuldataTable table tr.Mui-selected td:first-child {
+  background-color: transparent;
+}
+
+.status {
+  border-radius: 4px;
+  padding: 8px 18px;
+  font-size: 12px;
+  font-family: "Poppins";
+  font-weight: 500;
+  text-align: center;
+}
+.status-new {
+  background-color: rgba(61, 213, 152, 0.10);
+  color: #3dd598;
+}
+
+.status-pending {
+  background-color: rgba(255, 151, 74, 0.10);
+  color: #ff974a;
+}
+
+.status-cancel {
+  background-color: rgba(252, 90, 90, 0.10);
+  color: #fc5a5a;
+}
+
+.pagination-style li:first-child button,
+.pagination-style li:last-child button {
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid #e2e2ea;
+}
+
+.pagination-style li button.PaginationItem-selected-422 {
+  background-color: #084e8a;
+}
+
